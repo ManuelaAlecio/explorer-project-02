@@ -17,6 +17,12 @@ nav {
   margin-bottom: 55px;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -51,10 +57,12 @@ h1 span {
   color: #89C5CC;
 }
 
-p {
+section p {
   font-size: 14px;
   line-height: 28px;
   color: #7D7987;
+
+  margin: 40px 0;
 }
 
 button {
@@ -62,7 +70,10 @@ button {
 }
 
 footer {
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 28px;
+  
+  text-align: center;
+
+  margin-top: 80px;
 }
